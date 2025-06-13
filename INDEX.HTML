@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MPK Samarinda</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-6 py-4 shadow-md bg-white sticky top-0 z-50">
+    <div class="text-xl font-bold text-yellow-600">MPK Samarinda</div>
+    <ul class="hidden md:flex space-x-6 font-medium">
+      <li><a href="#tentang" class="hover:text-yellow-600">Tentang</a></li>
+      <li><a href="#program" class="hover:text-yellow-600">Program</a></li>
+      <li><a href="#kontak" class="hover:text-yellow-600">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center text-center bg-gradient-to-br from-yellow-100 to-white px-4">
+    <div>
+      <h1 class="text-4xl md:text-6xl font-bold text-yellow-700 mb-4">
+        Majelis Perwakilan Kelas
+      </h1>
+      <p class="text-lg md:text-xl text-gray-700 max-w-xl mx-auto mb-6">
+        Tegas, berintegritas, dan bertanggung jawab untuk mewujudkan pengawasan OSIS yang adil dan mendidik.
+      </p>
+      <a href="#tentang" class="bg-yellow-600 text-white px-6 py-3 rounded-xl hover:bg-yellow-700 transition">
+        Kenali Kami
+      </a>
+    </div>
+  </section>
+
+  <!-- Visi & Misi -->
+  <section id="tentang" class="py-16 bg-white px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-yellow-700 mb-6">Visi & Misi MPK</h2>
+      <p class="text-lg text-gray-800 mb-8">
+        MPK sebagai pengawas kegiatan OSIS yang berintegritas dan bertata krama untuk mencapai tujuan bersama.
+      </p>
+      <div class="text-left space-y-4 text-gray-700">
+        <p>1. Mendukung secara moril dan materil kegiatan OSIS sesuai aturan agar berjalan semestinya.</p>
+        <p>2. Mengawasi kegiatan OSIS agar tetap berperan penting untuk masa depan peserta didik.</p>
+        <p>3. Membangun hubungan beretika dengan OSIS dan seluruh siswa sekolah.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+<!-- Program -->
+<section id="program" class="py-16 bg-gray-50 px-6">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-yellow-700 mb-10">Program MPK</h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Musyawarah Siswa</h3>
+        <p class="text-gray-600">Forum diskusi antar perwakilan kelas untuk menyuarakan aspirasi siswa secara terstruktur.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Pengawasan OSIS</h3>
+        <p class="text-gray-600">Meninjau dan mengevaluasi kegiatan OSIS agar berjalan sesuai dengan tujuan pendidikan.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Etika & Tata Krama</h3>
+        <p class="text-gray-600">Menanamkan nilai-nilai sopan santun dan tata krama antar siswa dan organisasi sekolah.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section id="kontak" class="py-16 bg-white px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-yellow-700 mb-6">Hubungi Kami</h2>
+    <p class="text-gray-700 mb-4">Jika kamu ingin bertanya seputar MPK, silakan hubungi kami melalui kontak di bawah:</p>
+    <div class="space-y-2 text-gray-800">
+      <p><strong>Email:</strong> mpksekolah@email.com</p>
+      <p><strong>WhatsApp:</strong> 0812-3456-7890</p>
+      <p><strong>Alamat:</strong> SMA Negeri XX, Samarinda, Kalimantan Timur</p>
+    </div>
+  </div>
+</section>
+
+<!-- Formulir Pendaftaran -->
+<section class="py-16 bg-yellow-50 px-6">
+  <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-md">
+    <h2 class="text-2xl font-bold text-yellow-700 text-center mb-6">Daftar Jadi Anggota MPK</h2>
+    <form class="space-y-4">
+      <div>
+        <label class="block mb-1 font-medium text-gray-700">Nama Lengkap</label>
+        <input type="text" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium text-gray-700">Kelas</label>
+        <input type="text" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium text-gray-700">Motivasi Bergabung</label>
+        <textarea rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition">
+          Kirim Formulir
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
